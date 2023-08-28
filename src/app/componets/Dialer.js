@@ -7,6 +7,7 @@ import { PiClockCounterClockwiseBold } from "react-icons/pi";
 import { AiFillLock } from "react-icons/ai";
 import { BiArrowBack } from "react-icons/bi";
 import { BsPersonFillAdd } from "react-icons/bs";
+import SliderIcons from "@/app/componets/SliderIcons";
 
 const Dialer = () => {
   const [cal, setCal] = useState("");
@@ -47,6 +48,7 @@ const Dialer = () => {
           <div class="p-5 text-white text-right text-3xl bg-[#463636]">
             <span class="text-orange-500">{result || ""}</span>
           </div>
+            <SliderIcons/>
 
           <div class="flex items-stretch bg-[#463636] h-24">
             <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
